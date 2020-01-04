@@ -1,0 +1,215 @@
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1             localhost
+
+# NETZWERK
+
+172.18.44.###	Switch 0		# Switch Nr. 1 - Rechnerraum WW1 (Kundenbeistellung)
+	
+172.18.44.230	Switch 1		# SCALANCE XR324-4MEEC	Switch Nr. 1 - Schaltanlage 1
+	
+172.18.44.231	Switch 2		# SCALANCE XR324-4MEEC	Switch Nr. 2 - Rechnerraum WW1	
+
+172.18.44.232	Switch 3		# Switch Nr. 3 - Auflegerost Haus
+
+172.18.44.233	Switch 4		# Switch Nr. 4 - Ofenmesshaus
+
+172.18.44.234	Switch 5		# Switch Nr. 5 - Steuerbühne Vorstraße	
+
+172.18.44.235	Switch 6		# Switch Nr. 6 - EB Werkstatt
+	
+172.18.44.113	Switch 7		# Switch Nr. 7 - Schaltanlage 3
+
+172.18.44.114	Switch 8		# Switch Nr. 8 - Schaltanlage 3
+
+172.18.44.115	Switch 9		# Switch Nr. 9 - Schaltanlage 4
+
+172.18.44.116	Switch 10		# Switch Nr. 10 - Steuerbühne Windungsleger
+
+172.18.44.117	Switch 11		# Switch Nr. 11 - Steuerbühne Adjustage
+
+172.18.44.118	Switch 12		# Switch Nr. 12 - Steuerbühne Etikettierhaus
+	
+172.18.44.119	Switch 13		# Switch Nr. 13 - Schaltanlage 5	
+
+# AS
+
+172.18.40.100	BSWWW2WWCC01	# HMI Server 1
+
+172.18.40.101	BSWWW2WCC02		# HMI Server 2 (redundant)
+
+172.18.40.102	BSWWW2WEB		# HMI Web Server
+
+172.18.44.165	FSVS			# S7-400 Führungssystem Vorstraße		
+
+172.18.44.166	NAVS			# S7-400 Nebenanlagen Vorstraße
+		
+172.18.44.167	SIVS			# S7-400F Sicherheitssystem Vorstraße	
+	
+172.18.44.168	SOF2			# S7-400 Stoßofen 2		
+
+172.18.44.169	SNG04			# Schere nach Gerüst 4		
+
+172.18.44.120	FS_A1			# Fertigstraße A1
+
+172.18.44.121	NA_A1			# Nebenanlagen Fertigstraße A1	
+
+172.18.44.122	SI_A1			# Sicherheit Fertigstraße A1		
+
+172.18.44.123	FS_A2			# Fertigstraße A2
+	
+172.18.44.124	NA_A2			# Nebenanlagen Fertigstraße A2	
+
+172.18.44.125	SI_A2			# Sicherheit Fertigstraße A2	
+	
+172.18.44.126	NA_FS			# Nebenanlagen Fertigstraße Gesamt	
+
+172.18.44.127	SI_FS			# Sicherheit NA Fertigstraße Gesamt	
+
+172.18.44.128	ADJST			# Adjustage	
+
+172.18.44.159	BM_01			# Bindemaschine 1	
+	
+172.18.44.160	BM_02			# Bindemaschine 2	
+	
+172.18.44.161	BM_03			# Bindemaschine 3	
+	
+172.18.44.162	SI_AD			# Sicherheit Adjustage
+
+# HMI
+
+172.18.42.100	BSWWW2BS01		# HMI Client - Auflegerost Haus
+
+172.18.42.101	BSWWW2BS02		# HMI Client - Ofenmesshaus	
+
+172.18.42.102	BSWWW2BS03		# HMI Client - Rechnerraum WW1
+
+172.18.42.103	BSWWW2BS04		# HMI Client - Rechnerraum WW1	
+
+172.18.42.104	BSWWW2BS05		# HMI Client - EB Werkstatt	
+
+172.18.42.105	BSWWW2BS06		# HMI Client - EB & MB Meister	
+
+172.18.42.106	BSWWW2BS07		# HMI Web Client - WW Leitung	
+
+172.18.42.107	BSWWW2BS08		# HMI Client - Walzenwerkstatt	
+
+172.18.42.128	BSWWW2BS09		# HMI Client - Schaltanlage 1	
+
+172.18.42.129	BSWWW2BS10		# HMI Client - Schaltanlage 3	
+
+172.18.42.130	BSWWW2BS11		# HMI Client - Schaltanlage 4	
+
+172.18.42.131	BSWWW2BS12		# HMI Client - Schaltanlage 4	
+
+172.18.42.132	BSWWW2BS13		# Portabler HMI Client - Palettentransport 1	
+
+172.18.42.133	BSWWW2BS14		# Portabler HMI Client - Palettentransport 2	
+
+172.18.42.134	BSWWW2BS15		# Portabler HMI Client - Palettentransport 3	
+
+172.18.42.135	BSWWW2BS##		# HMI Client - Medien Öl	
+
+172.18.42.136	BSWWW2BS##		# HMI Client - Medien Hydraulik	
+
+# LEVEL 2
+
+#172.18.40.122	BSWWW2L2S01		# Level 2 Server 1 (not used because of the IP change)
+
+#172.18.40.123	BSWWW2L2S02		# Level 2 Server 2 (not used because of the IP change)
+
+172.18.40.96	MEFINO2			# 
+
+172.18.42.158	BSWWW2L2C01		# Level 2 Client - Meister Büro
+
+172.18.42.159	BSWWW2L2C02		# Level 2 Client - Steuerbühne
+
+172.18.42.160	BSWWW2L2C03		# Level 2 Client - LEitung Büro
+
+172.18.42.161	BSWWW2L2C04		# Level 2 Client - Walzenwerk Büro
+
+172.18.42.162	BSWWW2L2C05		# Level 2 Client - Steuerbühne Windungsleger
+
+172.18.42.163	BSWWW2L2C06		# Level 2 Client - Steuerbühne Adjustage
+
+172.18.42.164	BSWWW2L2C07		# Level 2 Client - Steuerbühne Etikettierhaus
+
+172.18.42.165	BSWWW2L2C08		# Level 2 Client - Dispatcher Büro
+
+# ES
+
+172.18.40.109	BSWWW2NB01		# Level 1 Engineering Notebook
+
+172.18.40.105	BSWWW2ES01		# Level 1 Engineering Server Wartung & SW-PC
+
+172.18.40.106	BSWWW2ES02		# Level 1 Engineering Server Nebenanlagen Wartung & SW-PC
+
+172.18.40.108	BSWWW2ES03		# Level 2 Engineering Station
+
+172.18.40.120	BSWWW2ES04		# Level 1 Engineering Server Palettentransport Wartung & SW-PC
+
+172.18.40.121	BSWWW2ES05		# Level 1 Engineering Server Antriebe Wartung & SW-PC
+
+# EXTERN
+
+172.18.40.107	BSWWW2PDA		# PDA System
+
+172.18.40.124	BSWWW2PDA2		# PDA System
+
+172.18.44.164	BSWWW2DR01		# Drucker A4
+
+172.18.44.182	BSWWW2DR02		# PDA System Drucker A4
+
+172.18.44.183	BSWWW2DR03		# PDA System Drucker A4
+
+# ANDERE
+
+172.18.20.100	Uhrzeit-Server			# von BSW gestellter Uhrzeit-Server f. Synchronisation
+		
+172.18.40.200	PDA ibaBM-DPM-S_0A68	# Konfigurations-Schnittstelle f. iba Profibus-Sniffer
+
+172.18.40.201	PDA ibaBM-DPM-S_0A69	# Konfigurations-Schnittstelle f. iba Profibus-Sniffer
+
+172.18.40.202	WCC01 Redundanz			# Redundanzabgleich WinCC
+
+172.18.40.203	WCC02 Redundanz			# Redundanzabgleich WinCC
+
+172.18.20.100	TimeSyncServer			# Time Synchronization Server	
+
+# VM ENG
+
+172.18.44.200	E51EKYXD-VM		# Hellwig
+
+172.18.44.201	ATPC2FTC-VM		# Froschauer
+
+172.18.44.202	ATPC0A6D-VM		# Kern	
+
+172.18.44.203	Platzhalter1	# Harringer		
+
+172.18.44.204	MD10NXQC-VM		# Furtner	
+
+172.18.44.205	MD1035MC-VM		# Portscher	
+
+172.18.44.206	Platzhalter2	# Freilinger
+		
+172.18.44.207	Platzhalter3	# Kuhn	
+
+172.18.44.208	E51EP4PD		# Antriebs-Kollegen	

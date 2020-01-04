@@ -1,0 +1,32 @@
+16.03. 13:54:21.364 DEF   01 Dbg: Configuration of debug log 'HmiServerLP':
+16.03. 13:54:21.365 DEF   01 Dbg: logRootDir         = E:\FHTCOM\na\project\log
+16.03. 13:54:21.365 DEF   01 Dbg: logFileSize        = 2560000
+16.03. 13:54:21.365 DEF   01 Dbg: numberOfFiles      = 1000
+16.03. 13:54:21.366 DEF   01 Dbg: diskLimitPercent   = 70%
+16.03. 13:54:21.366 DEF   01 Dbg: reuseExistingFiles = 0
+16.03. 13:54:21.366 DEF   01 Dbg: deleteLogs         = 0
+16.03. 13:54:21.366 DEF   01 Dbg: bytesToBeDeleted   = 2560000
+16.03. 13:54:21.366 DEF   01 Dbg: verbosity          = 5
+16.03. 13:54:21.366 DEF   01 Dbg: flushEvery         = 10
+16.03. 13:54:21.366 DEF   01 Dbg: checkHeap          = 0
+16.03. 13:54:21.366 DEF   01 Dbg: stdout             = 1
+16.03. 13:54:21.366 DEF   01 Dbg: file               = 1
+16.03. 13:54:21.366 DEF   01 Dbg: debugger           = 0
+16.03. 13:54:21.366 DEF   01 Dbg: printTimeStamp     = 1
+16.03. 13:54:21.367 DEF   01 
+16.03. 13:54:21.367 DEF   01 *** CORBA Application Frame V10.0.0, built Oct 29 2010, 13:13:49 ***
+16.03. 13:54:21.367 DEF   01 *** in debug mode x86 using VC++ 1600 and TAO 1.3a_p16 ***
+16.03. 13:54:21.367 DEF   01 
+16.03. 13:54:21.367 GEN4  01 Acquired process mutex -> server is not already running on this host
+16.03. 13:54:21.367 GEN4  01 calling appl -ping -silent HmiServerLP  ...
+16.03. 13:54:23.007 GEN4  01 ... ok.
+16.03. 13:54:23.009 GEN4  01 ORBWrapper: twowayTimeout = 30000
+16.03. 13:54:23.009 GEN4  01 ORBWrapper: useRequestQueue = 0
+16.03. 13:54:23.010 GEN4  01 ORBWrapper: twowaysMayJumpQueue = 0
+16.03. 13:54:23.011 GEN4  01 ORBWrapper: nestedUpcall = 0
+16.03. 13:54:23.012 GEN4  01 ORBWrapper: multiplexConnections = 1
+16.03. 13:54:23.012 GEN4  01 ORBWrapper: SHMIOP_fileSize = 0
+16.03. 13:54:23.012 GEN4  01 argv: MiddlewareServer.exe -name HmiServerLP -ORBSvcConfDirective static Client_Strategy_Factory "-ORBClientConnectionHandler rw" -ORBSvcConfDirective static Client_Strategy_Factory "-ORBConnectStrategy blocked" -ORBSvcConfDirective static Client_Strategy_Factory "-ORBTransportMuxStrategy exclusive" -ORBSvcConfDirective static Resource_Factory "-ORBFlushingStrategy blocking" 
+16.03. 13:54:23.015 GEN4  01 Servant::activate: activating DebugIDL@HmiServerLP
+16.03. 13:54:23.015 GEN4  01 Servant::activate: activating ApplicationIDL@HmiServerLP
+16.03. 13:54:23.016 GEN4  01 Servant::activate: activating HMIClientIDL@HmiServerLP

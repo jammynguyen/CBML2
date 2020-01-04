@@ -1,0 +1,3 @@
+connect / as sysdba;
+ALTER DATABASE ACTIVATE STANDBY DATABASE; 
+quit;

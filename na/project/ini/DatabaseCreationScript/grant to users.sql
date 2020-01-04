@@ -1,0 +1,1 @@
+grant select on strack.strack_event to rsh;
